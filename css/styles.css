@@ -8497,11 +8497,13 @@ hr.on-light {
   border-bottom: 1px solid #ddd;
   font-family: "NotoSans";
   font-size: 2.75em;
+  line-height: 3em;
   font-weight: 700; }
 
 .content-list .cbp-ntaccordion h4 {
   position: relative;
   font-size: 1.6em;
+  line-height: 1.8em;
   text-transform: uppercase;
   letter-spacing: 0.01em;
   padding: 0.5em 0 0.5em;
@@ -8509,7 +8511,8 @@ hr.on-light {
   font-family: "NotoSans"; }
 
 .content-list .cbp-ntaccordion h5 {
-  font-size: 1.2em;
+  font-size: 1.4em;
+  line-height: 1.6em;
   padding: 0.5em 0 0.5em;
   margin: 0 0 0.5em;
   border-bottom: 1px solid #ddd;
@@ -8517,7 +8520,7 @@ hr.on-light {
 
 .content-list .cbp-ntaccordion .cbp-ntcontent p {
   color: #888;
-  font-size: 1.25em;
+  font-size: 1.4em;
   font-weight: 300;
   line-height: 1.5;
   padding: 0.2em 0 1.5em;
@@ -8534,39 +8537,31 @@ hr.on-light {
   .content-list .col-sm-2 {
     width: auto; } }
 
-footer {
-  background: url(../images/footer.png) bottom right no-repeat;
+footer .bg-footer {
+  background: url(../images/footer.png) top right no-repeat;
   background-size: cover;
-  height: 300px; }
-  footer .container {
-    position: relative;
-    top: 80%;
-    transform: translateY(-80%); }
-    footer .container .nav-tabs {
-      background-color: transparent; }
-    footer .container ul.nav.nav-tabs.nav-justified {
-      width: 90%;
-      text-transform: uppercase;
-      font-family: helvetica-lt;
-      font-size: 1.3em; }
-  @media (max-width: 992px) {
-    footer ul.nav.nav-tabs.nav-justified {
-      width: 70%; } }
+  height: 200px; }
+
+footer .footer {
+  background-color: #303F9F;
+  padding: 1em 0; }
+  footer .footer .nav-tabs {
+    background-color: transparent; }
+  footer .footer ul.nav.nav-tabs.nav-justified {
+    text-transform: uppercase;
+    font-size: 1.3em; }
+    footer .footer ul.nav.nav-tabs.nav-justified .logo {
+      position: absolute;
+      right: 0;
+      top: -75px;
+      height: 150px; }
 
 @media (max-width: 748px) {
-  footer {
-    background: url(../images/footer.png) bottom center no-repeat;
-    height: 300px; }
-    footer .container {
-      position: static;
-      top: 0;
-      transform: translateY(0); }
-      footer .container ul.nav.nav-tabs.nav-justified {
-        width: 100%; }
-        footer .container ul.nav.nav-tabs.nav-justified a {
-          color: #000 !important; }
-      footer .container .nav-tabs > li {
-        margin-bottom: -10px; } }
+  footer .footer ul.nav.nav-tabs.nav-justified .logo {
+    height: 200px;
+    position: relative;
+    top: 0;
+    right: 0; } }
 
 @font-face {
   font-family: "helvetica";
