@@ -9536,35 +9536,35 @@ footer .footer {
 
 @font-face {
   font-family: "helvetica";
-  src: url(/fonts/Helvetica-Roman.ttf); }
+  src: url(../fonts/Helvetica-Roman.ttf); }
 
 @font-face {
   font-family: "helvetica-lt";
-  src: url(/fonts/Helvetica-Lt.ttf); }
+  src: url(../fonts/Helvetica-Lt.ttf); }
 
 @font-face {
   font-family: "helvetica-md";
-  src: url(/fonts/Helvetica-Md.ttf); }
+  src: url(../fonts/Helvetica-Md.ttf); }
 
 @font-face {
   font-family: "helvetica-bd";
-  src: url(/fonts/Helvetica-Bd.ttf); }
+  src: url(../fonts/Helvetica-Bd.ttf); }
 
 @font-face {
   font-family: "helvetica-round";
-  src: url(/fonts/Helvetica-Rounded-Bold.ttf); }
+  src: url(../fonts/Helvetica-Rounded-Bold.ttf); }
 
 @font-face {
   font-family: "NotoSans";
-  src: url(/fonts/NotoSans-Regular.ttf); }
+  src: url(../fonts/NotoSans-Regular.ttf); }
 
 @font-face {
   font-family: "NotoSansBold";
-  src: url(/fonts/NotoSans-Bold.ttf); }
+  src: url(../fonts/NotoSans-Bold.ttf); }
 
 @font-face {
   font-family: "NotoSerif";
-  src: url(/fonts/NotoSerif-Regular.ttf); }
+  src: url(../fonts/NotoSerif-Regular.ttf); }
 
 body {
   font-family: 'NotoSans', sans-serif; }
